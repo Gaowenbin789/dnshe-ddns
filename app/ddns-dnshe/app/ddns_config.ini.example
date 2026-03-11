@@ -1,0 +1,20 @@
+# DNSHE DDNS 配置文件示例
+# 复制此文件为 ddns_config.ini 并填写你的配置
+
+[DNSHE]
+# DNSHE API Key (在 DNSHE 官网获取)
+api_key = 你的 API Key
+# DNSHE API Secret
+api_secret = 你的 API Secret
+# 子域名 ID (可通过 Web 后台测试 API 获取)
+subdomain_id = 
+# DNS TTL (秒)
+ttl = 600
+
+[DDNS]
+# 检查间隔 (秒)
+check_interval = 600
+# DNS TTL (秒)
+dns_ttl = 600
+# 自动续期
+auto_renew = True

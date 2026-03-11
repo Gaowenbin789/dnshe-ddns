@@ -1,0 +1,47 @@
+
+{
+
+  "appId": "ddns-dnshe",
+
+  "name": "DNSHE DDNS",
+
+  "version": "1.0.0",
+
+  "author": "FeiniuNAS DDNS",
+
+  "description": "飞牛NAS专用DNSHE动态域名解析工具",
+
+  "arch": ["arm64", "amd64"],
+
+  "tags": ["DDNS", "DNS", "网络工具"],
+
+  "icon": "icon.png",
+
+  "scripts": {
+
+    "install": "scripts/install.sh",
+
+    "uninstall": "scripts/uninstall.sh",
+
+    "start": "scripts/start.sh",
+
+    "stop": "scripts/stop.sh",
+
+    "status": "scripts/status.sh"
+
+  },
+
+  "config": {
+
+    "configFile": "app/ddns_config.ini"
+
+  },
+
+  "dependencies": {
+
+    "python3": ">=3.7"
+
+  }
+
+}
+
