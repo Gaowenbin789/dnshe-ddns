@@ -1,6 +1,6 @@
-# DNSHE DDNS - 飞牛NAS 动态域名更新工具
+# DNSHE DDNS -  DNSHE动态域名更新工具
 
-一个专为飞牛NAS 设计的 DNSHE 动态域名更新工具，支持 IPv6 地址自动检测和更新。
+一个专为DNSHE设计的  动态域名更新工具，支持 IPv6 地址自动检测和更新。
 
 ## ✨ 功能特性
 
@@ -74,7 +74,7 @@ bash start_web.sh
 - Python 3.6+
 - Flask (Web 后台依赖)
 - Requests
-- Linux 系统（飞牛NAS）
+- Linux 系统
 
 ## 🔧 使用说明
 
@@ -165,8 +165,9 @@ MIT License
 
 ## 👥 作者
 
-基于飞牛NAS DNSHE DDNS 修改
+gaowenbin
 
 ## 🙏 致谢
 
 感谢 DNSHE 提供的 API 服务
+感谢 LINGMA 全程编写 本人一点没参与 

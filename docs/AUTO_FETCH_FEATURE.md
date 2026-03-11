@@ -19,7 +19,7 @@ Web 后台新增了**自动获取子域名 ID**功能，无需手动查找和填
 
 | 选择 | 子域名 | 根域名 | 完整域名 | 状态 |
 |------|--------|--------|----------|------|
-| ⬤ | gudu.bbroot.com | bbroot.com | gudu.bbroot.com | active |
+| ⬤ | ****.bbroot.com | bbroot.com | ****.bbroot.com | active |
 
 点击任意一行即可自动填充对应的 **Subdomain ID**
 
@@ -48,10 +48,10 @@ POST /api/auto_fetch_subdomains
   "message": "成功获取 1 个子域名",
   "subdomains": [
     {
-      "id": 229726,
-      "name": "gudu.bbroot.com",
+      "id": *****,
+      "name": "****.bbroot.com",
       "rootdomain": "bbroot.com",
-      "full_domain": "gudu.bbroot.com",
+      "full_domain": "****.bbroot.com",
       "status": "active"
     }
   ]
